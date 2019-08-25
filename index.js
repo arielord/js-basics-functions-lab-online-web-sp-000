@@ -3,8 +3,8 @@ function distanceFromHqInBlocks(street){
   return Math.abs(street - 42)
 }
 
-function distanceFromHqInFeet(){
-  return distanceFromHqInBlocks * 264
+function distanceFromHqInFeet(street){
+  return distanceFromHqInBlocks(street) * 264
 }
 
 function distanceTravelledInFeet(){
